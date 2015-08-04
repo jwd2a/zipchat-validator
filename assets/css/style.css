@@ -134,7 +134,7 @@ img { max-width: 100%; }
     text-transform: uppercase;
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
-.btn-link-2:hover, .btn-link-2:focus, 
+.btn-link-2:hover, .btn-link-2:focus,
 .btn-link-2:active, .btn-link-2:active:focus { outline: 0; background: none; border: 1px solid #aaa; opacity: 0.5; color: #fff; }
 
 .btn-link-3 {
@@ -545,7 +545,7 @@ nav a:focus { color: #ffa456; outline: 0; }
 	text-align: left;
 }
 
-.contact-form h3, 
+.contact-form h3,
 .contact-address h3 {
 	padding: 0 0 10px 0;
 	color: #fff;
@@ -622,3 +622,21 @@ footer {
 
 .footer-copyright a, .footer-copyright a:focus { color: #fff; }
 .footer-copyright a:hover { color: #fff; border-bottom: 1px dotted #fff; }
+
+/***** Modal *****/
+
+.mc-field-group input {
+  width: 65%;
+  margin-left: 10px;
+}
+
+#mc-embedded-subscribe {
+  padding-top:0;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.modal-body h4 {
+  margin-top:30px;
+  margin-bottom:20px;
+}

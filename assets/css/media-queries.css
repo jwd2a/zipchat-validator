@@ -98,7 +98,7 @@
 
 	/* logo */
     .top-content .logo a {
-    	background-image: url(../img/zipchat_white.png) !important; background-repeat: no-repeat !important; background-size: 180px 82px !important;
+    	background-image: url(../img/zipchat_white@2x.png) !important; background-repeat: no-repeat !important; background-size: 180px 82px !important;
     }
 
 }

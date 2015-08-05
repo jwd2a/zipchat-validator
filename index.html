@@ -59,7 +59,7 @@
               <br>No signup, no registration.
             </div>
             <div class="top-button">
-              <a class="btn btn-link-1" href="#" data-toggle="modal" data-target="#subModal" data-backdrop="static">Create a Room Now</a>
+              <a class="btn btn-link-1 cta" href="#" data-toggle="modal" data-target="#subModal" data-backdrop="static">Create a Room Now</a>
             </div>
           </div>
         </div>
@@ -223,6 +223,12 @@
 
     ga('create', 'UA-65974520-1', 'auto');
     ga('send', 'pageview');
+  </script>
+
+  <script>
+    $(".cta").click(function(){
+      ga('send', 'event', 'conversion', 'click', 'startRoomButton');
+    });
   </script>
 
 </body>

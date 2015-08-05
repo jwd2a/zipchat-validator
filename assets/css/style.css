@@ -219,7 +219,7 @@ nav a:focus { color: #ffa456; outline: 0; }
 	height: 82px;
 	margin: 0;
 	padding: 0;
-	background: url(../img/logo.png) left center no-repeat;
+	background: url(../img/zipchat_white.png) left center no-repeat;
 	text-indent: -9999px;
 }
 .top-content .logo a:focus { outline: 0; }
